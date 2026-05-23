@@ -20,7 +20,7 @@ export default function ContributePage() {
           <p>
             Built with ❤️ for Kerala - കേരളത്തിന്, സ്നേഹത്തോടെ{" "}
             {/* <a
-              href="https://github.com/your-org/appundo.in"
+              href="https://github.com/salmanfarisvp/appundo.in"
               className="hover:text-green-600 transition-colors"
               target="_blank"
               rel="noopener noreferrer"

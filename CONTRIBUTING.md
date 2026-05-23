@@ -59,7 +59,7 @@ Open a PR on GitHub. Fill out the PR template checklist.
 
 ## Not comfortable with Git?
 
-[Open a GitHub Issue](https://github.com/your-org/appundo.in/issues/new?template=add-app.yml) using the **New App Submission** template. A maintainer will add it for you.
+[Open a GitHub Issue](https://github.com/salmanfarisvp/appundo.in/issues/new?template=add-app.yml) using the **New App Submission** template. A maintainer will add it for you.
 
 ---
 

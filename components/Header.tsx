@@ -28,7 +28,7 @@ export default function Header() {
             Contribute
           </a>
           <a
-            href="https://github.com/your-org/appundo.in"
+            href="https://github.com/salmanfarisvp/appundo.in"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
