@@ -25,7 +25,7 @@ export default function Header() {
             href="/contribute"
             className="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-500 transition-colors"
           >
-            Contribute
+            Submit an App
           </a>
           {/* <a
             href="https://github.com/salmanfarisvp/appundo.in"
