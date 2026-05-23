@@ -7,7 +7,8 @@
     "category": "Utilities",
     "tags": ["kerala", "lpg", "gas", "delivery"],
     "addedBy": "admin",
-    "addedAt": "2024-01-01"
+    "addedAt": "2024-01-01",
+    "icon": "⛽️"
   },
   {
     "id": "mazha",
@@ -17,7 +18,8 @@
     "category": "Weather",
     "tags": ["kerala", "rain", "weather", "forecast"],
     "addedBy": "admin",
-    "addedAt": "2024-01-02"
+    "addedAt": "2024-01-02",
+    "icon": "🌧️"
   },
   {
     "id": "kuzhiyundo",
@@ -26,7 +28,8 @@
     "url": "https://www.kuzhiyundo.com/",
     "category": "Tools",
     "tags": ["kerala", "road", "pothole", "map"],
-    "addedBy": "admin"
+    "addedBy": "admin",
+    "icon": "🚧"
   },
   {
     "id": "whats-happening-in-kerala",
@@ -35,24 +38,37 @@
     "url": "https://what-s-happening-in-kerala.vercel.app/",
     "category": "News",
     "tags": ["kerala", "news", "events", "calendar"],
-    "addedBy": "admin"
+    "addedBy": "admin",
+    "icon": "📰"
   },
   {
-    "id": "parathipetty.com",
+    "id": "parathipetty",
     "name": "Parathipetty.com",
     "description": "പരാതിപ്പെട്ടി. Kerala's public complaint box, on WhatsApp",
     "url": "https://parathipetty.com/",
     "category": "Tools",
     "tags": ["kerala", "parathipetty", "complaint", "whatsapp"],
-    "addedBy": "admin"
+    "addedBy": "admin",
+    "icon": "✉️"
   },
   {
-    "id": "currentundo.com",
+    "id": "currentundo",
     "name": "Current Undo",
     "description": "നിങ്ങളുടെ പ്രദേശത്ത് കറന്റ് പോയോ? — Know the electricity status in your area",
     "url": "https://currentundo.com/",
     "category": "Tools",
     "tags": ["kerala", "current", "electricity", "power"],
-    "addedBy": "admin"
+    "addedBy": "admin",
+    "icon": "⚡️"
+  },
+  {
+    "id": "dams.keralam",
+    "name": "Dams.keralam.co",
+    "description": "Know the kerala dam water level status in real time",
+    "url": "https://dams.keralam.co/",
+    "category": "Tools",
+    "tags": ["kerala", "news", "water", "level"],
+    "addedBy": "admin",
+    "icon": "🌊"
   }
 ]
