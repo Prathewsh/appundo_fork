@@ -41,6 +41,7 @@ export default function CategoryFilter({ active, counts, onChange }: CategoryFil
     <div className="flex flex-wrap gap-2">
       {ALL_CATEGORIES.map((cat) => {
         const count = cat === "All" ? counts["All"] : counts[cat];
+        if (cat !== "All" && !count) return null;
         const isActive = active === cat;
         return (
           <button
