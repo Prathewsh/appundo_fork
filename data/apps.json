@@ -1,7 +1,7 @@
 [
   {
     "id": "gasundo",
-    "name": "Gas Undo",
+    "name": "Gasundo.live",
     "description": "Find restaurants open in Ernakulam, limited-menu updates, and closures in real time.",
     "url": "https://www.gasundo.live/",
     "category": "Utilities",
@@ -11,7 +11,7 @@
   },
   {
     "id": "mazha",
-    "name": "Mazha",
+    "name": "Mazha.live",
     "description": "Crowdsourced Hyperlocal rainfall data and weather updates for Kerala, Know when it will rain near you.",
     "url": "https://www.mazha.live/",
     "category": "Weather",
@@ -21,7 +21,7 @@
   },
   {
     "id": "kuzhiyundo",
-    "name": "Kuzhiyundo",
+    "name": "Kuzhiyundo.com",
     "description": "Community-driven map where residents of Kerala can report, track, and vote on road potholes in their area",
     "url": "https://www.kuzhiyundo.com/",
     "category": "Tools",
@@ -38,8 +38,8 @@
     "addedBy": "admin"
   },
   {
-    "id": "parathipetty",
-    "name": "Parathipetty",
+    "id": "parathipetty.com",
+    "name": "Parathipetty.com",
     "description": "പരാതിപ്പെട്ടി. Kerala's public complaint box, on WhatsApp",
     "url": "https://parathipetty.com/",
     "category": "Tools",
@@ -47,7 +47,7 @@
     "addedBy": "admin"
   },
   {
-    "id": "currentundo",
+    "id": "currentundo.com",
     "name": "Current Undo",
     "description": "നിങ്ങളുടെ പ്രദേശത്ത് കറന്റ് പോയോ? — Know the electricity status in your area",
     "url": "https://currentundo.com/",
