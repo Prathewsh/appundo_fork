@@ -26,7 +26,7 @@
     "name": "Kuzhiyundo.com",
     "description": "Community-driven map where residents of Kerala can report, track, and vote on road potholes in their area",
     "url": "https://kuzhiyundo.com/",
-    "category": "Tools",
+    "category": "Transport",
     "tags": ["road", "pothole", "map"],
     "addedBy": "admin",
     "icon": "🚧"
@@ -46,7 +46,7 @@
     "name": "Parathipetty.com",
     "description": "പരാതിപ്പെട്ടി. Kerala's public complaint box, on WhatsApp",
     "url": "https://parathipetty.com/",
-    "category": "Tools",
+    "category": "Govt",
     "tags": ["parathipetty", "complaint", "whatsapp"],
     "addedBy": "admin",
     "icon": "✉️"
@@ -56,7 +56,7 @@
     "name": "Currentundo.com",
     "description": "നിങ്ങളുടെ പ്രദേശത്ത് കറന്റ് പോയോ? — Know the electricity status in your area",
     "url": "https://currentundo.com/",
-    "category": "Tools",
+    "category": "Utilities",
     "tags": ["current", "electricity", "power"],
     "addedBy": "admin",
     "icon": "⚡️"
@@ -66,7 +66,7 @@
     "name": "Dams.keralam.co",
     "description": "Know the kerala dam water level status in real time",
     "url": "https://dams.keralam.co/",
-    "category": "Tools",
+    "category": "Weather",
     "tags": ["news", "water", "level"],
     "addedBy": "admin",
     "icon": "🌊"
