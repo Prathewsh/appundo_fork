@@ -110,5 +110,25 @@
     "tags": ["mla", "government", "politics"],
     "addedBy": "admin",
     "icon": "🔎"
+  },
+  {
+    "id": "policeundo",
+    "name": "Policeundo.com",
+    "description": "Know what's ahead,before you ride. Community-powered live alerts for police checking, MVD, accidents, floods and potholes. Built by riders, for Kerala roads.",
+    "url": "https://policeundo.lovable.app/",
+    "category": "Transport",
+    "tags": ["police","accidents", "floods"],
+    "addedBy": "admin",
+    "icon": "🚓"
+  },
+  {
+    "id": "mandi.theeta.in",
+    "name": "Mandi.theeta.in",
+    "description": "Every mandi matters. Log your mandi sessions, mayo decisions, and soft drink damage.",
+    "url": "https://mandi.theeta.in/",
+    "category": "Health",
+    "tags": ["food", "health", "mandi"],
+    "addedBy": "admin",
+    "icon": "🍛"
   }
 ]
