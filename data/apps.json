@@ -160,5 +160,15 @@
     "tags": ["transport", "fare", "calculator"],
     "addedBy": "admin",
     "icon": "🚕"
+  },
+  {
+    "id": "sitinshade",
+    "name": "Sitinshade.com",
+    "description": "Find Best Seat to Minimize Sun Exposure While Traveling",
+    "url": "https://sitinshade.com/",
+    "category": "Transport",
+    "tags": ["transport", "seat", "shade"],
+    "addedBy": "admin",
+    "icon": "🌤️"
   }
 ]
