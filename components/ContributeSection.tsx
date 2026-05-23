@@ -8,7 +8,10 @@ export default function ContributeSection() {
             Know a useful Kerala app?
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-sm mb-8">
-            This directory is community-driven. Submit any web app that&apos;s useful for people in Kerala — government services, local tools, weather, transport, and more.
+          നിങ്ങൾ ഉണ്ടാക്കിയതോ, അല്ലെങ്കിൽ ഇന്റർനെറ്റിൽ കണ്ടതോ ആയ ഉപകാരപ്രദമായ ലോക്കൽ വെബ്സൈറ്റുകൾ/ആപ്പുകൾ ഷെയർ ചെയ്യൂ.
+          <br />
+          <br />
+          Share any useful local websites or apps you have built or found on the internet below! A maintainer will review your submission and add it to the directory. Please ensure the link is active and working.
           </p>
 
           <a

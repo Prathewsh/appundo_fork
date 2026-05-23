@@ -24,7 +24,7 @@ export default function HomePage() {
             </p>
             <div className="mt-4 inline-flex items-center gap-2 text-xs text-gray-400 dark:text-gray-500 bg-gray-100 dark:bg-gray-800 px-3 py-1.5 rounded-full">
               <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse" />
-              {apps.length} apps listed · open source · community-driven
+              {apps.length} apps listed · കേരളത്തിന്, സ്നേഹത്തോടെ · community-driven
             </div>
           </section>
 
