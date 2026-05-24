@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { App, AppCategory } from "@/types/app";
+import { App, AppCategory, UNDO_CATEGORY_TAG } from "@/types/app";
 import AppCard from "./AppCard";
 import CategoryFilter from "./CategoryFilter";
 import SearchBar from "./SearchBar";
@@ -18,6 +18,9 @@ export default function DirectoryClient({ apps }: DirectoryClientProps) {
     const result: Partial<Record<AppCategory, number>> = { All: apps.length };
     for (const app of apps) {
       result[app.category] = (result[app.category] ?? 0) + 1;
+      if (app.categoryTags?.includes(UNDO_CATEGORY_TAG)) {
+        result[UNDO_CATEGORY_TAG] = (result[UNDO_CATEGORY_TAG] ?? 0) + 1;
+      }
     }
     return result;
   }, [apps]);
@@ -25,7 +28,11 @@ export default function DirectoryClient({ apps }: DirectoryClientProps) {
   const filtered = useMemo(() => {
     let list = apps;
     if (activeCategory !== "All") {
-      list = list.filter((a) => a.category === activeCategory);
+      if (activeCategory === UNDO_CATEGORY_TAG) {
+        list = list.filter((a) => a.categoryTags?.includes(UNDO_CATEGORY_TAG));
+      } else {
+        list = list.filter((a) => a.category === activeCategory);
+      }
     }
     if (search.trim()) {
       const q = search.toLowerCase();

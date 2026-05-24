@@ -1,11 +1,12 @@
 "use client";
 
-import { AppCategory } from "@/types/app";
+import { AppCategory, UNDO_CATEGORY_TAG } from "@/types/app";
 
 export const CATEGORY_META: Record<
   Exclude<AppCategory, "All">,
   { emoji: string; color: string }
 > = {
+  [UNDO_CATEGORY_TAG]: { emoji: "🌴", color: "bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300" },
   Weather:    { emoji: "🌧️", color: "bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300" },
   Utilities:  { emoji: "⚡", color: "bg-yellow-100 text-yellow-700 dark:bg-yellow-900/40 dark:text-yellow-300" },
   Govt:       { emoji: "🏛️", color: "bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300" },
@@ -15,10 +16,13 @@ export const CATEGORY_META: Record<
   Transport:  { emoji: "🚌", color: "bg-teal-100 text-teal-700 dark:bg-teal-900/40 dark:text-teal-300" },
   Health:     { emoji: "🏥", color: "bg-red-100 text-red-700 dark:bg-red-900/40 dark:text-red-300" },
   Education:  { emoji: "📚", color: "bg-indigo-100 text-indigo-700 dark:bg-indigo-900/40 dark:text-indigo-300" },
+  Community:  { emoji: "👥", color: "bg-rose-100 text-rose-700 dark:bg-rose-900/40 dark:text-rose-300" },
+  Jobs:       { emoji: "💼", color: "bg-sky-100 text-sky-700 dark:bg-sky-900/40 dark:text-sky-300" },
 };
 
 const ALL_CATEGORIES: AppCategory[] = [
   "All",
+  UNDO_CATEGORY_TAG,
   "Weather",
   "Utilities",
   "Govt",
@@ -28,6 +32,8 @@ const ALL_CATEGORIES: AppCategory[] = [
   "Health",
   "Education",
   "Fun",
+  "Community",
+  "Jobs",
 ];
 
 interface CategoryFilterProps {

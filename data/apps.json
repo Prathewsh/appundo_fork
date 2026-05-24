@@ -5,6 +5,7 @@
     "description": "Find restaurants open in Ernakulam, limited-menu updates, and closures in real time.",
     "url": "https://www.gasundo.live/",
     "category": "Utilities",
+    "categoryTags": ["Und/ഉണ്ട്"],
     "tags": ["kerala", "lpg", "gas", "hotel"],
     "addedBy": "admin",
     "addedAt": "2024-01-01",
@@ -27,6 +28,7 @@
     "description": "Community-driven map where residents of Kerala can report, track, and vote on road potholes in their area",
     "url": "https://kuzhiyundo.com/",
     "category": "Transport",
+    "categoryTags": ["Und/ഉണ്ട്"],
     "tags": ["road", "pothole", "map"],
     "addedBy": "admin",
     "icon": "🚧"
@@ -57,6 +59,7 @@
     "description": "നിങ്ങളുടെ പ്രദേശത്ത് കറന്റ് പോയോ? — Know the electricity status in your area",
     "url": "https://currentundo.com/",
     "category": "Utilities",
+    "categoryTags": ["Und/ഉണ്ട്"],
     "tags": ["current", "electricity", "power"],
     "addedBy": "admin",
     "icon": "⚡️"
@@ -77,6 +80,7 @@
     "description": "Real-time rain status for Kerala",
     "url": "https://mazhaundo.in/",
     "category": "Weather",
+    "categoryTags": ["Und/ഉണ്ട്"],
     "tags": ["rain", "weather", "forecast"],
     "addedBy": "admin",
     "icon": "🌧️"
@@ -117,6 +121,7 @@
     "description": "Know what's ahead,before you ride. Community-powered live alerts for police checking, MVD, accidents, floods and potholes. Built by riders, for Kerala roads.",
     "url": "https://policeundo.lovable.app/",
     "category": "Transport",
+    "categoryTags": ["Und/ഉണ്ട്"],
     "tags": ["police","accidents", "floods"],
     "addedBy": "admin",
     "icon": "🚓"
@@ -187,6 +192,7 @@
     "description": "പെണ്ണുണ്ടോ - കല്യാണം ആലോചിക്കുന്നുണ്ടോ? മലയാളികൾക്കിടയിൽ പേരെടുത്ത മാട്രിമോണി സൈറ്റുകളും, ജീവിതപങ്കാളിയെ കണ്ടെത്താൻ സഹായിക്കുന്ന ആപ്പുകളും ഇവിടെ കാണാം. സമുദായം നോക്കി എളുപ്പത്തിൽ താരതമ്യം ചെയ്യാം.",
     "url": "https://pennundo.in/",
     "category": "Community",
+    "categoryTags": ["Und/ഉണ്ട്"],
     "tags": ["community", "life", "marriage"],
     "addedBy": "admin",
     "icon": "💍"
@@ -217,6 +223,7 @@
     "description": "ജോലി ഉണ്ടോ? - The platform with jobs, startups, remote work & internships for Malayali students, graduates & job seekers. ",
     "url": "https://www.joliundo.in/",
     "category": "Jobs",
+    "categoryTags": ["Und/ഉണ്ട്"],
     "tags": ["jobs", "startups", "work"],
     "addedBy": "admin",
     "icon": "💼"

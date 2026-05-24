@@ -1,5 +1,7 @@
-export type AppCategory =
-  | "All"
+export const UNDO_CATEGORY_TAG = "Und/ഉണ്ട്" as const;
+export type CategoryTag = typeof UNDO_CATEGORY_TAG;
+
+export type AppDisplayCategory =
   | "Weather"
   | "Utilities"
   | "Govt"
@@ -8,14 +10,19 @@ export type AppCategory =
   | "News"
   | "Transport"
   | "Health"
-  | "Education";
+  | "Education"
+  | "Community"
+  | "Jobs";
+
+export type AppCategory = "All" | AppDisplayCategory | CategoryTag;
 
 export interface App {
   id: string;
   name: string;
   description: string;
   url: string;
-  category: Exclude<AppCategory, "All">;
+  category: AppDisplayCategory;
+  categoryTags?: CategoryTag[];
   tags: string[];
   addedBy?: string;
   addedAt?: string;
