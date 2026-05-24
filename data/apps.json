@@ -190,5 +190,15 @@
     "tags": ["community", "life", "marriage"],
     "addedBy": "admin",
     "icon": "💍"
+  },
+  {
+    "id": "veyil",
+    "name": "Veyil.app",
+    "description": "വെയിൽ - Finding the perfect seat to avoid the sun, one journey at a time.",
+    "url": "https://veyil.app/",
+    "category": "Transport",
+    "tags": ["transport", "seat", "shade"],
+    "addedBy": "admin",
+    "icon": "🌤️"
   }
 ]
