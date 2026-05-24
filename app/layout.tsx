@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import ClarityInit from "@/components/ClarityInit";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "🌴 ആപ്പ് ഉണ്ടോ? — Kerala Apps Directory | appundo.in",
@@ -42,6 +43,18 @@ export default function RootLayout({
         {children}
         <Analytics />
         <ClarityInit />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-D999EZ9B3R"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-D999EZ9B3R');
+          `}
+        </Script>
       </body>
     </html>
   );
