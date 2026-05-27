@@ -349,5 +349,15 @@
     "tags": ["community", "nilambur", "connect"],
     "addedBy": "admin",
     "icon": "📍"
+  },
+  {
+    "id": "harthal",
+    "name": "harthal.netlify.app",
+    "description": "ഹർത്താൽ റിപ്പോർട്ടർ - Kerala Hartal Tracker",
+    "url": "https://harthal.netlify.app/",
+    "category": "Community",
+    "tags": ["harthal", "kerala", "tracker"],
+    "addedBy": "admin",
+    "icon": "🚧"
   }
 ]
