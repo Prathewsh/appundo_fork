@@ -359,5 +359,15 @@
     "tags": ["harthal", "kerala", "tracker"],
     "addedBy": "admin",
     "icon": "🚧"
+  },
+  {
+    "id": "lifeleft",
+    "name": "ml.lifeleft.in",
+    "description": "ഇനി എത്ര നാൾ? - Time is ticking...",
+    "url": "https://ml.lifeleft.in//",
+    "category": "Tools",
+    "tags": ["life", "left", "time"],
+    "addedBy": "admin",
+    "icon": "🕒"
   }
 ]
