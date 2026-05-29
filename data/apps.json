@@ -369,5 +369,15 @@
     "tags": ["life", "left", "time"],
     "addedBy": "admin",
     "icon": "🕒"
+  },
+  {
+    "id": "keralamap",
+    "name": "keralamap.in",
+    "description": "കേരളം മാപ് - A map of Kerala",
+    "url": "https://bloodundo.vercel.app/,
+    "category": "Travel",
+    "tags": ["map", "kerala", "travel"],
+    "addedBy": "admin",
+    "icon": "🗺️"
   }
 ]
