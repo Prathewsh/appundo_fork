@@ -371,13 +371,13 @@
     "icon": "🕒"
   },
   {
-    "id": "keralamap",
-    "name": "keralamap.in",
-    "description": "കേരളം മാപ് - A map of Kerala",
-    "url": "https://bloodundo.vercel.app/,
-    "category": "Travel",
-    "tags": ["map", "kerala", "travel"],
+    "id": "bloodundo",
+    "name": "bloodundo.vercel.app",
+    "description": "Real-time emergency blood donation matching and community life-saving alerts. Powered by the people, for the people.",
+    "url": "https://bloodundo.vercel.app/",
+    "category": "Community",
+    "tags": ["blood", "donation", "community"],
     "addedBy": "admin",
-    "icon": "🗺️"
+    "icon": "🏥"
   }
 ]
