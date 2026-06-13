@@ -380,5 +380,16 @@
     "tags": ["blood", "donation", "community"],
     "addedBy": "admin",
     "icon": "🏥"
+  },
+  {
+    "id": "rationundo",
+    "name": "rationundo.onrender.com",
+    "description": "റേഷൻ കടകളിലെ സ്റ്റോക്ക് വിവരങ്ങൾ എളുപ്പത്തിൽ പരിശോധിക്കാൻ RationUndo, പിൻകോഡ്, സ്ഥലനാമം അല്ലെങ്കിൽ കട നമ്പർ ഉപയോഗിച്ച് സ്റ്റോക്ക് വിവരങ്ങൾ നോക്കാം.",
+    "url": "https://rationundo.onrender.com",
+    "category": "Utilities",
+    "categoryTags": ["Und/ഉണ്ട്"],
+    "tags": ["ration", "stock", "location"],
+    "addedBy": "admin",
+    "icon": "🛒"
   }
 ]
