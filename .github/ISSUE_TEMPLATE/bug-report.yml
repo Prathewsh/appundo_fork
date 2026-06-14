@@ -1,0 +1,84 @@
+name: Bug Report
+description: Report a bug or something that's not working correctly
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in as much detail as possible so we can fix it quickly.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug
+      placeholder: e.g. The search bar doesn't filter results when I type in Malayalam
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue
+      placeholder: |
+        1. Go to appundo.in
+        2. Click on the search bar
+        3. Type '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: The results should filter based on my search input
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happened instead?
+      placeholder: Nothing happens / the page crashes / wrong results show
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: If applicable, paste or drag-and-drop a screenshot here to help explain the problem
+      placeholder: Drag and drop an image here, or paste a screenshot
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser are you using?
+      placeholder: e.g. Chrome 124, Safari 17, Firefox 125
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device / OS
+      description: What device and operating system are you on?
+      placeholder: e.g. iPhone 14 / iOS 17, Windows 11, Android 13
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I have checked that this issue hasn't already been reported
+          required: true
+        - label: I can reproduce this issue consistently
+          required: true
