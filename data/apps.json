@@ -620,12 +620,66 @@
   {
     "id": "samadhanamundo",
     "name": "Samadhanam-undo.vercel.app",
-    "description": "a hand-picked collection of podcast episodes from Simon Sinek, Mel Robbins, and Dr. Gabor Maté for moments when you need clarity, motivation, or calm. Free, no login, works on any device.",
+    "description": "A Hand-picked collection of podcast episodes from Simon Sinek, Mel Robbins, and Dr. Gabor Maté for moments when you need clarity, motivation, or calm. Free, no login, works on any device.",
     "url": "https://samadhanam-undo.vercel.app/",
     "category": "Tools",
     "categoryTags": ["Und/ഉണ്ട്"],
     "tags": ["peace", "podcast", "mindfulness"],
     "addedBy": "admin",
     "icon": "☮️"
+  },
+  {
+    "id": "netnndo",
+    "name": "Netundo.vercel.app",
+    "description": "Community-powered app that shows real mobile network coverage across Kerala. Find 5G areas, call-drop zones, and dead spots based on reports from real users.",
+    "url": "https://netundo.vercel.app/",
+    "category": "Tools",
+    "categoryTags": ["Und/ഉണ്ട്"],
+    "tags": ["network", "coverage", "location"],
+    "addedBy": "admin",
+    "icon": "📶"
+  },
+  {
+    "id": "mazhapeyyo",
+    "name": "mazhapeyyo.live",
+    "description": "MazhaUndo helps you check if you'll encounter rain during your journey, find the best time to leave, and travel smarter with route-based weather insights",
+    "url": "https://mazhapeyyo.live/",
+    "category": "Weather",
+    "categoryTags": ["Und/ഉണ്ട്"],
+    "tags": ["rain", "weather", "forecast"],
+    "addedBy": "admin",
+    "icon": "🌧️"
+  },
+  {
+    "id": "keralavipani",
+    "name": "Keralavipani.abidts.work",
+    "description": "Real-time Kerala market rates for vegetables, fish, fuel, gold, groceries and more — powered by community contributions.",
+    "url": "https://keralavipani.abidts.work/",
+    "category": "Utilities",
+    "tags": ["market", "rates", "location"],
+    "addedBy": "admin",
+    "icon": "🛒"
+  },
+  {
+    "id": "concertundo ",
+    "name": "Concertundo.online",
+    "description": "A crowdsourced local music and gig finder. Open the portal, check what's live around you, and go. Anyone can pin a gig in seconds-no logins, no endless sign-up forms. Just real programs, by real people, found instantly.",
+    "url": "https://www.concertundo.online/",
+    "category": "Utilities",
+    "categoryTags": ["Und/ഉണ്ട്"],
+    "tags": ["music", "events", "location"],
+    "addedBy": "admin",
+    "icon": "🎤"
+  },
+  {
+    "id": "luckundo",
+    "name": "Luckundo.xyz",
+    "description": "An interactive web platform that combines entertainment, gamification, and social engagement into a unique digital experience. The platform offers users a collection of luck-inspired mini-games, daily challenges, and reward-based activities designed to make every visit fun and engaging.",
+    "url": "https://www.luckundo.xyz/",
+    "category": "Tools",
+    "categoryTags": ["Und/ഉണ്ട്"],
+    "tags": ["luck", "games", "location"],
+    "addedBy": "admin",
+    "icon": "🤞"
   }
 ]
